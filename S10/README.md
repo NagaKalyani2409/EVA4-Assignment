@@ -27,4 +27,4 @@ Change in Training and Validation Accuracy
 
 Group Members
 A.Naga Kalyani 
-B.Kavya Shruthi
+D.Kavya Shruthi
