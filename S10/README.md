@@ -9,9 +9,9 @@ Data Augmentation
 
 The following data augmentation techniques were applied to the dataset during training:
 
-  Horizontal Flip
-  Rotation
-  CutOut
+  Horizontal Flip,
+  Rotation,
+  CutOut,
 
 GradCAM
 
