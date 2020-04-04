@@ -27,7 +27,6 @@ Change in Training and Validation Accuracy
 
 https://github.com/NagaKalyani2409/EVA4-Assignment/blob/master/S10/AccuracyVsLoss.png?raw=true
 
-
 Group Members
 A.Naga Kalyani 
 B.Kavya Shruthi
