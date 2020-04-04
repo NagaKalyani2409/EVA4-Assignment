@@ -15,8 +15,11 @@ The following data augmentation techniques were applied to the dataset during tr
 
 GradCAM
 Some of the examples of GradCAM on misclassified images is shown below:
-![](Images/10.png)
-![](Images/13.png)
+![](https://github.com/NagaKalyani2409/EVA4-Assignment/blob/master/S10/Misclassified%20Images/10.png)
+
+![](https://github.com/NagaKalyani2409/EVA4-Assignment/blob/master/S10/Misclassified%20Images/11.png)
+
+![](https://github.com/NagaKalyani2409/EVA4-Assignment/blob/master/S10/Misclassified%20Images/18.png)
 
 Change in Training and Validation Accuracy
 ![](AccuracyVsLoss.png)
