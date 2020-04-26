@@ -17,16 +17,10 @@ For custom dataset:
    Alex
    
 5. Alex above will have a class index of 0.
-6. For COCO's 80 classes, VOLOv3's output vector has 255 dimensions ( (4+1+80)*3). Now we have 1 class, so we would need to change it's    architecture.
+6. For COCO's 80 classes, YOLOv3's output vector has 255 dimensions ( (4+1+80)*3). Now we have 1 class, so we would need to change it's    architecture.
 7. Copy the contents of 'yolov3-spp.cfg' file to a new file called 'yolov3-custom.cfg' file in the data/cfg folder.
 8. Search for 'filters=255' (you should get entries entries). Change 255 to 18 = (4+1+1)*3
 9. Search for 'classes=80' and change all three entries to 'classes=1
-
-10. Since you are lazy (probably), you'll be working with very few samples. In such a case it is a good idea to change:
-  burn_in to 100
-  max_batches to 5000
-  steps to 4000,4500
-
 10. Run this command python train.py --data data/customdata/custom.data --batch 10 --cache --cfg cfg/yolov3-custom.cfg --epochs 3 --         nosave
 11. As you can see in the collage image above, a lot is going on, and if you are creating a set of say 500 images, you'd get a bonanza       of images via default augmentations being performed.
 12. Click here to check out the video for where we played around annotating Alex in the clip
