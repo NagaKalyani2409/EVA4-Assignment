@@ -1,1 +1,1 @@
-Upload 500 images in this folder for annotation.
+Upload 500 images in Madagascar folder for annotations.
